@@ -230,6 +230,10 @@ You can find more details on the API endpoints in the [API Reference](https://ap
 
 - It will not impact the functionality of the endpoint. We separated them just for the ease of use.
 
+**What is the difference between preview and full meal plan?**
+
+- You can use preview to quickly generate a meal plan, edit it and use it as an input into a full API, or you can just use the full API from the start. If you use the full API from the start the generation will take a bit longer and will be a bit less accurate if you’re trying to exactly match macros.
+
 ### Output Data 
 
 **If as mentioned above we are looping through to create multiple days for the meal plan will the shoppingList accumulate the values for each day or would we have to do that?**
