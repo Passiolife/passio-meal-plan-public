@@ -9,6 +9,14 @@ const nextConfig = {
       },
     ],
   },
+  // Next.js 15 has a different configuration structure
+  // The timeouts are handled in our API routes using AbortController
+  experimental: {
+    // Only keep recognized experimental features
+    serverActions: {
+      bodySizeLimit: '10mb',
+    },
+  },
 };
 
 module.exports = nextConfig;
